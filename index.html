@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Maratona de Corrida</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <img src="./assets/logo.jpg" class=""alt="Logo Maratona de Corrida">
+      <nav>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#localizacao">Localização</a></li>
+          <li><a href="#cadastro">Cadastro</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="inicio">
+        <h1>Maratona de Corrida Descodificadas</h1>
+        
+      </section>
+      <section id="sobre" style="background-color: #f2f2f2">
+        <p>A Maratona de Corrida é um evento anual que reúne corredores de todo o país para uma competição saudável e divertida. Com percursos de 5 km, 10 km e 21 km, há opções para todos os níveis de habilidade.</p>
+       
+      </section>
+      <section id="galeria">
+        <h2>Confira algumas fotos da nossa última edição:</h2>
+        <div class="imagem">
+          <img src="./assets/largada.jpg" alt="Corredores na largada">
+          <p>Largada da Maratona de Corrida</p>
+        </div>
+        <div class="imagem">
+          <img src="./assets/percurso.jpg" alt="Percurso da Maratona">
+          <p>Percurso da Maratona de Corrida</p>
+        </div>
+        <div class="imagem">
+          <img src="./assets/chegada.jpg" alt="Chegada da Maratona">
+          <p>Chegada da Maratona de Corrida</p>
+        </div>
+      </section>
+      <section id="localizacao">
+        <h2>Localização</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467688.89495119266!2d-46.5952992!3d-23.6824124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1676574979090!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </section>
+         <form id="form-cadastro">
+            <a href="#cadastro" ></a>
+            <form>
+                <h3>Cadastro para a Maratona</h3>
+                <div class="form-group">
+                  <label for="name">Nome</label>
+                  <input type="text" class="form-control" id="name" placeholder="Digite seu nome completo">
+                </div>
+               
+                <div class="form-group">
+                    E-mail <input type="email" name="e-mail" placeholder="Digite seu e-mail">
+                </div>
+                <div class="form-group">
+                  <label for="phone">Telefone</label>
+                  <input type="tel" class="form-control" id="phone" placeholder="(11)xxx-xxx">
+                </div>
+                <div>
+                    <p>Já participou antes?</p>
+                    <input type="radio" name="sim" value="sim">Sim <br>
+                    <input type="radio" name="nao" value="nao">Não<br>
+                   
+                </div>
+                <div>
+                    <p>Clique no botão para enviar sua candididatura para Corrida</p>
+                    <input type="button" value="Clique Aqui" onclick="msg()">
+                </div>
+                
+              </form>
+              
+          </form>
+          
+          <script>
+            function processarCadastro() {
+              // Código para processar o formulário de cadastro
+            }
+          
+            document.getElementById("form-cadastro").addEventListener( function(event) {
+              event.preventDefault();
+              processarCadastro();
+            });
+            function msg() {
+              alert("Sua Candidatura foi enviada, aguarde o email de confirmação");  
+            }
+            
+          </script>
+          
+         </main>
+         <footer class="footer">
+            <p>Criado por: Mayara Rocha</p>
+            <div class="redes-sociais">
+              <a href="https://github.com/MayaraRocha95/Desafio-projeto-de-uma-landpage">
+                Github
+              </a>
+              <a href="https://www.linkedin.com/in/mayaraaraujorocha/">
+                Linkedin
+              </a>
+            </div>
+          </footer>
+          
+  </body>

@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:ital@0;1&family=Raleway:wght@300&display=swap');
+/* Arquivo CSS para o projeto da maratona de corrida */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.inicio {
+  background-image: url("./assets/capa.jpg");
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  
+}
+.inicio h1 {
+  color:#8e558e;
+  font-size: 50px;
+  position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #8e558e;
+font-weight: 800;
+}
+
+/* Define header */
+
+header {
+  background-color: #8e558e;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+header img {
+  width: 100px;
+  height: auto;
+  margin-right: 200px;
+  opacity: 0.7;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color:#ddcbcb;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+}
+/* Define as dimensões das imagens na seção de imagens */
+#galeria {
+  text-align: center;
+  padding: 50px;
+}
+
+#galeria .imagem {
+  display: inline-block;
+  margin: 20px;
+  text-align: left;
+}
+
+#galeria .imagem img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+#galeria .imagem p {
+  padding-top: 10px;
+  font-size: 18px;
+}
+/* Centraliza o mapa na seção de localização */
+#localizacao {
+  text-align: center;
+  padding: 50px;
+}
+/* Define as dimensões dos inputs de texto e email na seção de formulário */
+#form-cadastro {
+  text-align: center;
+  padding: 50px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #5e35b1;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+  outline: none;
+  border-bottom: 2px solid #5e35b1;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+input[type="button"] {
+  padding: 10px 20px;
+  background-color: #5e35b1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.redes-sociais {
+  display: flex;
+  justify-content: center;
+}
+
+.redes-sociais a {
+  margin: 0 10px;
+  font-size: 20px;
+  color: #ddcbcb;
+  text-decoration: none;
+}
