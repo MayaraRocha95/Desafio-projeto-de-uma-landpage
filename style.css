@@ -8,26 +8,10 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+  background-color: #e0b6e0;
 }
 
-.inicio {
-  background-image: url("./assets/capa.jpg");
-  background-size: cover;
-  height: 100vh;
-  text-align: center;
-  
-}
-.inicio h1 {
-  color:#8e558e;
-  font-size: 50px;
-  position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-color: #8e558e;
-font-weight: 800;
-}
+
 
 /* Define header */
 
@@ -45,6 +29,7 @@ header img {
   height: auto;
   margin-right: 200px;
   opacity: 0.7;
+  border-radius: 50%;
 }
 
 header h1 {
@@ -83,6 +68,23 @@ header nav ul li a {
   cursor: pointer;
   float: left;
 }
+.inicio {
+  background-image: url("./assets/capa.jpg");
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  
+}
+.inicio h1 {
+  color:#8e558e;
+  font-size: 50px;
+  position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #8e558e;
+font-weight: 800;
+}
 /* Define as dimensões das imagens na seção de imagens */
 #galeria {
   text-align: center;
@@ -105,6 +107,23 @@ header nav ul li a {
   padding-top: 10px;
   font-size: 18px;
 }
+#sobre {
+  text-align: center;
+  padding: 50px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-container iframe {
+  width: 560px;
+  height: 315px;
+  margin: 20px;
+}
+
 /* Centraliza o mapa na seção de localização */
 #localizacao {
   text-align: center;
