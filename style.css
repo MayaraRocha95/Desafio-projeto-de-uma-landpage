@@ -111,7 +111,10 @@ font-weight: 800;
   text-align: center;
   padding: 50px;
 }
+#tutoriais {
+  text-align: center;
 
+}
 .video-container {
   display: flex;
   justify-content: center;
