@@ -6,12 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Página da Maratona de Corrida" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-      crossorigin="anonymous"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
   </head>
   <body>
     <header>
@@ -19,18 +15,19 @@
       <nav>
         <div class="menu">
           <ul class="list">
-            <li><a href="#inicio"> Início</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#galeria">Galeria</a></li>
-            <li><a href="#localizacao">Localização</a></li>
-            <li><a href="#cadastro">Cadastro</a></li>
+            <li><a href="#inicio" ><i class="material-icons">expand_more</i>Início</a></li>
+
+            <li><a href="#sobre"><i class="material-icons">search</i>Sobre</a></li>
+            <li><a href="#galeria"><i class="material-icons">image_search</i>Galeria</a></li>
+            <li><a href="#localizacao"><i class="material-icons">location_on</i>Localização</a></li>
+            <li><a href="#cadastro"><i class="material-icons">app_registration</i>Cadastro</a></li>
           </ul>
         </div>
     
       </nav>
     </header>
     <main>
-      <section class="inicio">
+      <section id="inicio" class="inicio">
         <h1>Maratona de Corrida Descodificadas</h1>
       </section>
       <section id="sobre" style="background-color: #f2f2f2">
@@ -90,7 +87,7 @@
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </section>
-      <form href="#cadastro" id="form-cadastro">
+      <form href="#cadastro" id="cadastro">
         <form>
           <h3>Cadastro para a Maratona</h3>
           <div class="form-group">
